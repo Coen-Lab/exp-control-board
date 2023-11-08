@@ -1,6 +1,6 @@
 Experimental Control Board
 ========
-This repository houses the electronics, firmware, and case design for the experimental control board. This board was designed by Max Hunter, to the specifications of Philip Coen. It  is designed both with features that are universally applicable to experimental neuroscience rigs, as well as some features which may not (but may) be useful outside the Coen Lab. In particular, the entire board costs less than the commercial equivalent of some single features (e.g. constant current delivery, or a thresholded, adjustable photodiode circuit).
+This repository houses the electronics, firmware, and case design for the experimental control board. This board was designed by [Max Hunter](https://maxhunter.me/), to the specifications of Philip Coen. It  is designed both with features that are universally applicable to experimental neuroscience rigs, as well as some features which may not (but may) be useful outside the Coen Lab. In particular, the entire board costs less than the commercial equivalent of some single features (e.g. constant current delivery, or a thresholded, adjustable photodiode circuit).
 
 The board as sold comprises:
 - 24V, 220W power supply
@@ -17,12 +17,10 @@ The board as sold comprises:
 	- Two logic inverters (5V TTL logic I/O)
 	- One Arduino Nano V3, used to control Peltier output and random ‘flipper’ output, with 6 spare IO for future expansion
 
-For detailed instructions, please contact Max Hunter (https://maxhunter.me/).
+For detailed instructions, please contact [Max Hunter](https://maxhunter.me/).
 
 &nbsp;
 &nbsp;
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
