@@ -7,7 +7,7 @@ The board as sold comprises:
 - Photodiode (2-pin)
 - Temperature sensor (3-pin)
 - Enclosure
-- PipCB v1, with the following features
+- ECB Version 1 with the following features
 	- Temperature-controlled PID Peltier cooler output with overheat protection
 	- Two fixed 12V, 3A(max) 2A(continuous) power rails for auxiliary devices, one with switchable on/off output
 	- Four variable 3-23V, 3A(max) 2A(continuous) power rails for auxiliary devices, all with switchable on/off outputs
