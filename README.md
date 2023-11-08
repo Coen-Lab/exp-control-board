@@ -1,8 +1,7 @@
 # Experimental Control Board
 This repository houses the electronics, firmware, and case design for the experimental control board. This board was designed by [Max Hunter](https://maxhunter.me/), to the specifications of Philip Coen. It  is designed both with features that are universally applicable to experimental neuroscience rigs, as well as some features which may not (but may) be useful outside the Coen Lab. In particular, the entire board costs less than the commercial equivalent of some single features (e.g. constant current delivery, or a thresholded, adjustable photodiode circuit).
 
-## NOTE
-This repository is under active development and will undergo significant changes over the next 2 months as we release a new version of the control board
+**NOTE**: This repository is under active development and will undergo significant changes over the next 2 months as we release a new version of the control board
 
 
 The board as sold comprises:
