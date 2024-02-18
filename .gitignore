@@ -7,6 +7,8 @@
 *.kicad_pcb-bak
 *.sch-bak
 *~
+*-backups
+
 _autosave-*
 *.tmp
 *-save.pro
@@ -22,3 +24,16 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
+
+# IDE and editor junk
+.idea/
+.vscode/
+*.swp
+~*
+
+# Build artefacts
+firmware/build/*
+firmware/main/build/*
+CMakeCache.txt
+CMakeFiles/
+~               
