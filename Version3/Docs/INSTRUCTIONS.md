@@ -23,7 +23,6 @@ The board as sold comprises:
 - 24V, 220W power supply
 - Photodiode (2-pin)
 - Temperature sensor (3-pin)
-- Enclosure
 - ECB Version 2 with the following features
     - Temperature-controlled PID Peltier cooler output with overheat protection
     - Two fixed 12V, 3A power rails for auxiliary devices, with switchable on/off outputs
@@ -36,7 +35,7 @@ The board as sold comprises:
 Please take the following precautions when handling the board.
 
 * **At no point should you “hot-plug” / screw or unscrew anything into the board when it is powered on. The rapid transients caused by the making/breaking of contacts when screwing a cable in can damage the board as well as any attached components.**
-* Do not overload or short-circuit any of the power rails. In particular, the +5V reference logic output is only rated for 50mA and is not for powering any other device! The other power rails should not be continuously loaded with more than 2A.
+* Do not overload or short-circuit any of the power rails.
 * Please pay attention to the total maximum current rating of 220W, which is possible to exceed if fully loading all voltage rails.
 * When handling or touching any components on the board, you should ground yourself with an ESD bracelet (£4 on Amazon) or by touching any grounded surface to dissipate electrostatic charge. Humans can accumulate several thousand volts of static charge which will dissipate through the board: several of the components on the board are very sensitive to ESD. When screwing in any of the terminals, take the same precaution, or use an insulated screwdriver so your skin does not make contact with the screw of the terminal.
 
