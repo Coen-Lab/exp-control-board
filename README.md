@@ -1,25 +1,25 @@
-# Experimental Control Board
-This repository houses the electronics, firmware, and case design for the experimental control board. This board was designed by [Max Hunter](https://maxhunter.me/), to the specifications of Philip Coen. It  is designed both with features that are universally applicable to experimental neuroscience rigs, as well as some features which may not (but may) be useful outside the Coen Lab. In particular, the entire board costs less than the commercial equivalent of some single features (e.g. constant current delivery, or a thresholded, adjustable photodiode circuit).
+# Experimental Control Board (ECB)
+This repository houses the electronics, firmware, and case design for the experimental control board. This board was designed by [Max Hunter](https://maxhunter.me/), to the specifications of Philip Coen. It  is designed both with features that are universally applicable to experimental neuroscience rigs, as well as some features which may not (but may) be useful outside the Coen Lab. In particular, the entire board costs less than the commercial equivalent of some single features (e.g. constant current delivery, or a thresholded, adjustable photodiode circuit) from commercial suppliers.
 
-**NOTE**: This repository is under active development and will undergo significant changes over the next 2 months as we release a new version of the control board
-
-
-The board as sold comprises:
+The v3 board as sold comprises:
 - 24V, 220W power supply
 - Photodiode (2-pin)
 - Temperature sensor (3-pin)
 - Enclosure
-- ECB Version 1 with the following features
+- ECB Version 3 with the following features
 	- Temperature-controlled PID Peltier cooler output with overheat protection
-	- Two fixed 12V, 3A(max) 2A(continuous) power rails for auxiliary devices, one with switchable on/off output
-	- Four variable 3-23V, 3A(max) 2A(continuous) power rails for auxiliary devices, all with switchable on/off outputs
-	- One 1A ±12V, zero-centred power supply for Thorlabs photodiode
+	- Two fixed 12V, 3A power rails for auxiliary devices, with switchable on/off outputs
+	- Four variable 3-24V, 3A power rails for auxiliary devices, with switchable on/off outputs
+	- Three adjustable 0-1A continuous current drivers for LEDs or similar devices
 	- Photosensor with variable sensitivity trigger (5V TTL digital output)
-	- Three DRV104 valve controllers, 12V output
-	- Two logic inverters (5V TTL logic I/O)
+	- Two DRV104 valve controllers, 12V output
 	- One Arduino Nano V3, used to control Peltier output and random ‘flipper’ output, with 6 spare IO for future expansion
 
-For detailed instructions, please contact [Max Hunter](https://maxhunter.me/).
+For useage instructions, please see:
+
+[Version 3 documentation](Version3/Docs/INSTRUCTIONS.md)
+
+To purchase pre-assembled units, please contact [Max Hunter](https://maxhunter.me/).
 
 &nbsp;
 &nbsp;
