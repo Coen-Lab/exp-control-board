@@ -1,4 +1,4 @@
-## PipCB v3 assembly and usage instructions
+## ECB Version 3 usage instructions
 
 
 ### Max Hunter, March 2024
