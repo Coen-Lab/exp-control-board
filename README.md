@@ -17,9 +17,7 @@ The v3 board as sold comprises:
 
 For instructions, please see:
 
-[V1 docs](Version1/Docs/INSTRUCTIONS.md)
-[V2 docs](Version2/Docs/INSTRUCTIONS.md)
-[V3 docs](Version3/Docs/INSTRUCTIONS.md)
+[Version 3 documentation](Version3/Docs/INSTRUCTIONS.md)
 
 To purchase pre-assembled units, please contact [Max Hunter](https://maxhunter.me/).
 
