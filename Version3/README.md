@@ -3,7 +3,7 @@
 
 ### Max Hunter, March 2024
 
-![Overview](images/image1.png "Overview")
+![Overview](Images/image1.png "Overview")
 
 Thanks for purchasing an ExpCB! This guide should act as a basic how-to to get started.
 
@@ -58,7 +58,7 @@ Four self-tapping screws can be inserted into the four corners of the case in th
 ### Power in
 
 
-![Power in](images/image2.png "Power input")
+![Power in](Images/image2.png "Power input")
 
 
 The board comes with a switchmode 24V, 220W power supply. You should sum up all the current ratings of the various attached devices (including Peltier cooler) and make sure they do not exceed 220W.
@@ -69,7 +69,7 @@ Once in the correct position, the insulation on the power connector should be cu
 ### Power out
 
 
-![Power outputs](images/image3.png "Power outputs")
+![Power outputs](Images/image3.png "Power outputs")
 
 
 There are 6 power rails for auxiliary devices on this board. All of them share the same 3A current rating.
@@ -93,7 +93,7 @@ All rails have a GATE input. Leaving this pin disconnected, or connecting this t
 
 ### Peltier
 
-![Peltier](images/image5.png "Peltier connectors")
+![Peltier](Images/image5.png "Peltier connectors")
 
 
 This board is tested and designed to work with the following 24V, 60W Peltier cooling module: [https://uk.rs-online.com/web/p/heat-pumps/7777079](https://uk.rs-online.com/web/p/heat-pumps/7777079). Other modules may work, as long as they are 24V and do not exceed 8A.
@@ -111,7 +111,7 @@ The code for the Peltier follows a PID loop with a frequency of approximately 80
 
 ### Photodiode
 
-![Photodiode](images/image6.png "Photodiode connectors")
+![Photodiode](Images/image6.png "Photodiode connectors")
 
 
 This is a completely separate module from the rest of the board, designed as an adjustable photodiode trigger at a user-settable light threshold - originally designed to be placed next to a square on a screen to synchronise it with experimental data. This turns a variable light level into a digital 5V TTL logic output. There is a Schmitt trigger to remove hysteresis. The included photodiode (optional) should be plugged with the RED wire into S- and the BLUE wire into S+. The photodiode should be placed in the desired position and the potentiometer adjusted for the desired sensitivity.
@@ -121,7 +121,7 @@ The output between OUT and ⏚ is the 5V TTL out. The output between RAW and ⏚
 
 ### Valve drivers
 
-![Valve drivers](images/image7.png "Valve drivers")
+![Valve drivers](Images/image7.png "Valve drivers")
 
 These are 2 completely independent valve drivers. They take 5V TTL logic in (between IN and ⏚) and connect to a valve. The specs are fixed and as follows:
 
@@ -134,8 +134,8 @@ When the logic level input goes above approximately 2.2V (maximum 5.5V) the outp
 
 ### Constant current drivers
 
-![Constant current drivers](images/image10.png "Constant current drivers")
-![Jumpers](images/image11.png "Jumpers")
+![Constant current drivers](Images/image10.png "Constant current drivers")
+![Jumpers](Images/image11.png "Jumpers")
 
 There are 3 constant-current drivers on this board. They are adjustable in 3 fixed steps: 333mA, 667mA, 1000mA, by adding or removing jumpers on the board as shown.
 
@@ -152,7 +152,7 @@ There is an internal pull-up resistor, so leaving this pin floating is the same 
 ### Arduino I/O
 
 
-![Arduino I/O](images/image9.png "Arduino I/O")
+![Arduino I/O](Images/image9.png "Arduino I/O")
 
 
 This is a breakout board for the included Arduino Nano v3. 
