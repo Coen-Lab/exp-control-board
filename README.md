@@ -15,7 +15,7 @@ The v3 board as sold comprises:
 	- Two DRV104 valve controllers, 12V output
 	- One Arduino Nano V3, used to control Peltier output and random ‘flipper’ output, with 6 spare IO for future expansion
 
-For instructions, please see:
+For useage instructions, please see:
 
 [Version 3 documentation](Version3/Docs/INSTRUCTIONS.md)
 
