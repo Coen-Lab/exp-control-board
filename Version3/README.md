@@ -1,4 +1,4 @@
-## ECB Version 3 usage instructions
+## ECB Version 3 guide and usage instructions
 <p align="center">
 <img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/5419c5a1-e87f-4c7d-b258-bab9e3ddde43">
 </p>
