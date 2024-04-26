@@ -7,7 +7,7 @@ _Above_: Verion 3 board CAD file (left) with both top and bottom of enclosure (c
 
 Thanks for purchasing (or considering) the ECB Version 3! This guide should act as a basic how-to to get started. If you have any questions/issues please post them on this github so that the entire community can benefit from the answers.
 
-A purchasable Bill of Materials, all source code for the Arduino, a 3D-printable case, and electronics design files can be found in this repository.
+A purchasable Bill of Materials, all source code for the Arduino, a 3D-printable enclosure, and electronics design files can be found in this repository.
 
 The board comes with a one-year warranty against manufacturing defects.
 
@@ -44,8 +44,8 @@ All the external connections to the board are made using screw terminals. These 
 
 For low-power devices with small cable sizes it is acceptable to insert several wires into a single terminal, as long as they are all sufficiently stripped so that they are making good contact with the terminal.
 
-### Case
-Four self-tapping screws can be inserted into the four corners of the case in the pre-drilled holes to mount onto any suitable surface. The board can be installed in any orientation but preferably should be kept away from direct sunlight and heat sources.
+### Enclosure
+Four self-tapping screws can be inserted into the four corners of the enclosure in the pre-drilled holes to mount onto any suitable surface. The board can be installed in any orientation but preferably should be kept away from direct sunlight and heat sources.
 
 ### Power in
 ![Power in](Images/image2.png "Power input")
@@ -165,8 +165,11 @@ The firmware is available on GitHub and can be modified and uploaded using the c
 
 A service like JLCPCB can be used with the included Gerber and pick&place files to manufacture and assemble the board.
 
-### Case
+### Enclosure
+<p align="center">
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/ae7e3554-a194-4164-b56f-c3fdd8086939" width="500">
+</p>
 
-Pip Coen has designed a 3D-printable case which can be found in this repository.
+Pip Coen has designed a 3D-printable enclosure which can be found in this repository.
 
-The case is designed to take 8 regular M4 nuts and M4 bolts.
+The enclosure is designed to take 8 regular M4 nuts and M4 bolts.
