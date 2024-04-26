@@ -94,9 +94,7 @@ The code for the Peltier follows a PID loop with a frequency of approximately 80
 
 
 ### Photodiode
-
-![Photodiode](Images/image6.png "Photodiode connectors")
-
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/688959b8-2b57-47c5-b22b-936db12ee4ae" width="230">
 
 This is a completely separate module from the rest of the board, designed as an adjustable photodiode trigger at a user-settable light threshold - originally designed to be placed next to a square on a screen to synchronise it with experimental data. This turns a variable light level into a digital 5V TTL logic output. There is a Schmitt trigger to remove hysteresis. The included photodiode (optional) should be plugged with the RED wire into S- and the BLUE wire into S+. The photodiode should be placed in the desired position and the potentiometer adjusted for the desired sensitivity.
 
@@ -104,8 +102,7 @@ The output between OUT and ⏚ is the 5V TTL out. The output between RAW and ⏚
 
 
 ### Valve drivers
-
-![Valve drivers](Images/image7.png "Valve drivers")
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/c6c77693-3ab8-4e8e-a79d-e095cd8bb59f" width="400">
 
 These are 2 completely independent valve drivers. They take 5V TTL logic in (between IN and ⏚) and connect to a valve. The specs are fixed and as follows:
 
@@ -117,9 +114,9 @@ When the logic level input goes above approximately 2.2V (maximum 5.5V) the outp
 
 
 ### Constant current drivers
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/281da088-6c27-47c8-a693-78a7be87bf6c" width="250">\
 
-![Constant current drivers](Images/image10.png "Constant current drivers")
-![Jumpers](Images/image11.png "Jumpers")
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/0f82e5b9-156d-478a-8c6a-37283b8ba00e" width="250">
 
 There are 3 constant-current drivers on this board. They are adjustable in 3 fixed steps: 333mA, 667mA, 1000mA, by adding or removing jumpers on the board as shown.
 
@@ -135,8 +132,7 @@ There is an internal pull-up resistor, so leaving this pin floating is the same 
 
 ### Arduino I/O
 
-
-![Arduino I/O](Images/image9.png "Arduino I/O")
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/fe5c1d7e-f226-4f1e-b79e-6fa29bc6ded4" width="400">\
 
 
 This is a breakout board for the included Arduino Nano v3. 
