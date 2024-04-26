@@ -5,7 +5,7 @@
 
 ![Overview](Images/image1.png "Overview")
 
-Thanks for purchasing an ExpCB! This guide should act as a basic how-to to get started.
+Thanks for purchasing (or considering) the ECB Version 3! This guide should act as a basic how-to to get started. If you have any questions/issues please post them on this github so that the entire community can benefit from the answers.
 
 A purchasable Bill of Materials, all source code for the Arduino, a 3D-printable case, and electronics design files can be found in this repository.
 
@@ -18,7 +18,7 @@ If you have any further questions or have any problems, please leave an issue on
 
 This board was designed by [Max Hunter](https://maxhunter.me/), to the specifications of Philip Coen. It  is designed both with features that are universally applicable to experimental rigs, as well as some features which may not (but may) be useful outside the Coen Lab. In particular, the entire board costs less than the commercial equivalent of some single features (e.g. constant current delivery, or a thresholded, adjustable photodiode circuit).
 
-The board as sold comprises:
+If purchased directly from Max, you will receive:
 
 - 24V, 220W power supply
 - Photodiode (2-pin)
