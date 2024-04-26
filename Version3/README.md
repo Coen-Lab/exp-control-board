@@ -137,9 +137,9 @@ There is an internal pull-up resistor, so leaving this pin floating is the same 
 
 ### Arduino I/O
 
-
-![Arduino I/O](Images/image9.png "Arduino I/O")
-
+<p align="center">
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/119e456c-1a71-438a-ac57-a23299b920fc" height="200">
+</p>
 
 This is a breakout board for the included Arduino Nano v3. 
 
@@ -165,9 +165,9 @@ The firmware is available on GitHub and can be modified and uploaded using the c
 
 A service like JLCPCB can be used with the included Gerber and pick&place files to manufacture and assemble the board.
 
-### Enclosure
 <p align="center">
-<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/ae7e3554-a194-4164-b56f-c3fdd8086939" width="500">
+### Enclosure
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/ae7e3554-a194-4164-b56f-c3fdd8086939" height="500">
 </p>
 
 Pip Coen has designed a 3D-printable enclosure which can be found in this repository.
