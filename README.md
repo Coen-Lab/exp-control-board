@@ -9,7 +9,7 @@ If purchased directly from Max, the Version 3 board includes:
 - 24V, 220W power supply
 - Photodiode (2-pin)
 - Temperature sensor (3-pin)
-- Enclosure
+- Enclosure (Pink in above images)
 - ECB Version 3 with the following features
 	- Temperature-controlled PID Peltier cooler output with overheat protection
 	- Two fixed 12V, 3A power rails for auxiliary devices, with switchable on/off outputs
