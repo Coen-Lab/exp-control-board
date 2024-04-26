@@ -1,11 +1,11 @@
 ## ECB Version 3 usage instructions
+<p align="center">
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/5419c5a1-e87f-4c7d-b258-bab9e3ddde43">
+</p>
 
+_Above_: Verion 3 board CAD file (left) with both top and bottom of enclosure (centre) or just the bottom of the enclosure (right)
 
-### Max Hunter, March 2024
-
-![Overview](Images/image1.png "Overview")
-
-Thanks for purchasing an ExpCB! This guide should act as a basic how-to to get started.
+Thanks for purchasing (or considering) the ECB Version 3! This guide should act as a basic how-to to get started. If you have any questions/issues please post them on this github so that the entire community can benefit from the answers.
 
 A purchasable Bill of Materials, all source code for the Arduino, a 3D-printable case, and electronics design files can be found in this repository.
 
@@ -15,15 +15,12 @@ If you have any further questions or have any problems, please leave an issue on
 
 
 ## General notes
-
-This board was designed by [Max Hunter](https://maxhunter.me/), to the specifications of Philip Coen. It  is designed both with features that are universally applicable to experimental rigs, as well as some features which may not (but may) be useful outside the Coen Lab. In particular, the entire board costs less than the commercial equivalent of some single features (e.g. constant current delivery, or a thresholded, adjustable photodiode circuit).
-
-The board as sold comprises:
+If purchased directly from Max, you have received:
 
 - 24V, 220W power supply
 - Photodiode (2-pin)
 - Temperature sensor (3-pin)
-- ECB Version 2 with the following features
+- ECB Version 3 with the following features
     - Temperature-controlled PID Peltier cooler output with overheat protection
     - Two fixed 12V, 3A power rails for auxiliary devices, with switchable on/off outputs
     - Four variable 3-24V, 3A power rails for auxiliary devices, with switchable on/off outputs
@@ -42,33 +39,22 @@ Please take the following precautions when handling the board.
 
 ## Installation/operation instructions
 
-
 ### General notes on screw terminals
-
 All the external connections to the board are made using screw terminals. These accept a wide variety of wire sizes. You should strip 5mm off the wire, then unscrew the terminal until the jaws fully open, insert the wire, and hand-tighten. The screw should clamp down on the conductor (not the insulation) and no conductor should be visible out the end of the connector.
 
 For low-power devices with small cable sizes it is acceptable to insert several wires into a single terminal, as long as they are all sufficiently stripped so that they are making good contact with the terminal.
 
-
 ### Case
-
 Four self-tapping screws can be inserted into the four corners of the case in the pre-drilled holes to mount onto any suitable surface. The board can be installed in any orientation but preferably should be kept away from direct sunlight and heat sources.
 
-
 ### Power in
-
-
 ![Power in](Images/image2.png "Power input")
-
 
 The board comes with a switchmode 24V, 220W power supply. You should sum up all the current ratings of the various attached devices (including Peltier cooler) and make sure they do not exceed 220W.
 
 Once in the correct position, the insulation on the power connector should be cut off and the ends stripped to 5mm. Slightly twist the copper to make sure no strands splay off, then insert BLACK into ⏚ and RED into +24.
 
-
 ### Power out
-
-
 ![Power outputs](Images/image3.png "Power outputs")
 
 
@@ -86,7 +72,7 @@ RAIL 5: Variable 3-23V
 
 RAIL 6: Variable 3-23V
 
-RAIL 3-6 are adjustable by turning the potentiometers next to the relevant rails with a small insulated flat screwdriver, whilst metering the output voltage with the serial logger on the Arduino, or a multimeter. Care should be taken to make sure the screwdriver does not slip and you do not touch any other components while metering, especially if using a multimeter.
+RAIL 3-6 are adjustable by turning the potentiometers (blue cuboids) next to the relevant rails with a small insulated flat screwdriver, whilst metering the output voltage with the serial logger on the Arduino, or a multimeter. Care should be taken to make sure the screwdriver does not slip and you do not touch any other components while metering, especially if using a multimeter.
 
 All rails have a GATE input. Leaving this pin disconnected, or connecting this to a voltage below approximately 1.3 V, turns the regulator on, and pulling this pin above 1.3 V (up to a maximum of 25 V) shuts the regulator down. This is a useful feature if you wish to use an Arduino pin (or other logic pin) to switch power to an external component. (Note that there are output capacitors on the voltage rails so the power will not switch off instantly)
 
@@ -100,13 +86,13 @@ This board is tested and designed to work with the following 24V, 60W Peltier co
 
 Insert BLACK into ⏚ and RED into PELT.
 
-Connect overheat switch to any terminal marked ⏚ and OHT (polarity doesn’t matter). This is a NC (normally closed) design which opens if the Peltier overheats - if your Peltier unit does not have an overheat sensor you should either modify the Arduino code or put a small bit of wire between OHT and ⏚ to bypass it.
+Connect overheat switch to any terminal marked ⏚ and OHT (polarity does not matter). This is a NC (normally closed) design which opens if the Peltier overheats - if your Peltier unit does not have an overheat sensor you should either modify the Arduino code or put a small bit of wire between OHT and ⏚ to bypass it.
 
 The temperature sensor (mandatory for Peltier cooling) should be plugged into T SENSOR. Red into +5, yellow into D (data), black into ⏚. It should be positioned close to/underneath the desired position to be kept at a constant temperature.
 
 The two fans (if available) should be plugged into any +12V rail.
 
-The code for the Peltier follows a PID loop with a frequency of approximately 800KHz. It is roughly tuned for Pip’s original experimental box and so the P, I, D constants may need adjusting if the temperature proves to oscillate or under/overshoot in a new environment or with a different Peltier.
+The code for the Peltier follows a PID loop with a frequency of approximately 800KHz. It is roughly tuned for The Coen Lab’s original experimental box and so the P, I, D constants may need adjusting if the temperature proves to oscillate or under/overshoot in a new environment or with a different Peltier.
 
 
 ### Photodiode
@@ -157,7 +143,7 @@ There is an internal pull-up resistor, so leaving this pin floating is the same 
 
 This is a breakout board for the included Arduino Nano v3. 
 
-The currently implemented features are:
+The implemented features in the provided firmware are:
 
 A ‘flipper’ random I/O which randomly flips between HIGH and LOW approximately every 100ms. This is turned on and off by setting FE (flipper enable) to HIGH or LOW.
 
