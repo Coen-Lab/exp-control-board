@@ -1,9 +1,7 @@
 ## ECB Version 3 usage instructions
-
-
-### Max Hunter, March 2024
-
-![Overview](Images/image1.png "Overview")
+<p align="center">
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/5419c5a1-e87f-4c7d-b258-bab9e3ddde43">
+</p>
 
 Thanks for purchasing (or considering) the ECB Version 3! This guide should act as a basic how-to to get started. If you have any questions/issues please post them on this github so that the entire community can benefit from the answers.
 
