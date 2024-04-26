@@ -48,14 +48,14 @@ For low-power devices with small cable sizes it is acceptable to insert several 
 Four self-tapping screws can be inserted into the four corners of the enclosure in the pre-drilled holes to mount onto any suitable surface. The board can be installed in any orientation but preferably should be kept away from direct sunlight and heat sources.
 
 ### Power in
-![Power in](Images/image2.png "Power input")
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/06d300f3-d032-4f42-b7f4-f1ebe7eefe98" width="125">
 
 The board comes with a switchmode 24V, 220W power supply. You should sum up all the current ratings of the various attached devices (including Peltier cooler) and make sure they do not exceed 220W.
 
 Once in the correct position, the insulation on the power connector should be cut off and the ends stripped to 5mm. Slightly twist the copper to make sure no strands splay off, then insert BLACK into ⏚ and RED into +24.
 
 ### Power out
-![Power outputs](Images/image3.png "Power outputs")
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/40da4de8-6fea-4f82-8e1f-0a02edd50f2b" width="350">
 
 
 There are 6 power rails for auxiliary devices on this board. All of them share the same 3A current rating.
@@ -78,9 +78,7 @@ All rails have a GATE input. Leaving this pin disconnected, or connecting this t
 
 
 ### Peltier
-
-![Peltier](Images/image5.png "Peltier connectors")
-
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/a8e7ccee-287e-424c-8595-0d6bce31e986" width="300">
 
 This board is tested and designed to work with the following 24V, 60W Peltier cooling module: [https://uk.rs-online.com/web/p/heat-pumps/7777079](https://uk.rs-online.com/web/p/heat-pumps/7777079). Other modules may work, as long as they are 24V and do not exceed 8A.
 
@@ -137,9 +135,9 @@ There is an internal pull-up resistor, so leaving this pin floating is the same 
 
 ### Arduino I/O
 
-<p align="center">
-<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/119e456c-1a71-438a-ac57-a23299b920fc" height="200">
-</p>
+
+![Arduino I/O](Images/image9.png "Arduino I/O")
+
 
 This is a breakout board for the included Arduino Nano v3. 
 
@@ -165,10 +163,8 @@ The firmware is available on GitHub and can be modified and uploaded using the c
 
 A service like JLCPCB can be used with the included Gerber and pick&place files to manufacture and assemble the board.
 
-<p align="center">
 ### Enclosure
-<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/ae7e3554-a194-4164-b56f-c3fdd8086939" height="500">
-</p>
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/ae7e3554-a194-4164-b56f-c3fdd8086939" width="500">
 
 Pip Coen has designed a 3D-printable enclosure which can be found in this repository.
 
