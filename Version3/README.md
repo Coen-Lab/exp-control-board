@@ -72,7 +72,7 @@ RAIL 5: Variable 3-23V
 
 RAIL 6: Variable 3-23V
 
-RAIL 3-6 are adjustable by turning the potentiometers next to the relevant rails with a small insulated flat screwdriver, whilst metering the output voltage with the serial logger on the Arduino, or a multimeter. Care should be taken to make sure the screwdriver does not slip and you do not touch any other components while metering, especially if using a multimeter.
+RAIL 3-6 are adjustable by turning the potentiometers (blue cuboids) next to the relevant rails with a small insulated flat screwdriver, whilst metering the output voltage with the serial logger on the Arduino, or a multimeter. Care should be taken to make sure the screwdriver does not slip and you do not touch any other components while metering, especially if using a multimeter.
 
 All rails have a GATE input. Leaving this pin disconnected, or connecting this to a voltage below approximately 1.3 V, turns the regulator on, and pulling this pin above 1.3 V (up to a maximum of 25 V) shuts the regulator down. This is a useful feature if you wish to use an Arduino pin (or other logic pin) to switch power to an external component. (Note that there are output capacitors on the voltage rails so the power will not switch off instantly)
 
@@ -86,13 +86,13 @@ This board is tested and designed to work with the following 24V, 60W Peltier co
 
 Insert BLACK into ⏚ and RED into PELT.
 
-Connect overheat switch to any terminal marked ⏚ and OHT (polarity doesn’t matter). This is a NC (normally closed) design which opens if the Peltier overheats - if your Peltier unit does not have an overheat sensor you should either modify the Arduino code or put a small bit of wire between OHT and ⏚ to bypass it.
+Connect overheat switch to any terminal marked ⏚ and OHT (polarity does not matter). This is a NC (normally closed) design which opens if the Peltier overheats - if your Peltier unit does not have an overheat sensor you should either modify the Arduino code or put a small bit of wire between OHT and ⏚ to bypass it.
 
 The temperature sensor (mandatory for Peltier cooling) should be plugged into T SENSOR. Red into +5, yellow into D (data), black into ⏚. It should be positioned close to/underneath the desired position to be kept at a constant temperature.
 
 The two fans (if available) should be plugged into any +12V rail.
 
-The code for the Peltier follows a PID loop with a frequency of approximately 800KHz. It is roughly tuned for Pip’s original experimental box and so the P, I, D constants may need adjusting if the temperature proves to oscillate or under/overshoot in a new environment or with a different Peltier.
+The code for the Peltier follows a PID loop with a frequency of approximately 800KHz. It is roughly tuned for The Coen Lab’s original experimental box and so the P, I, D constants may need adjusting if the temperature proves to oscillate or under/overshoot in a new environment or with a different Peltier.
 
 
 ### Photodiode
@@ -143,7 +143,7 @@ There is an internal pull-up resistor, so leaving this pin floating is the same 
 
 This is a breakout board for the included Arduino Nano v3. 
 
-The currently implemented features are:
+The implemented features in the provided firmware are:
 
 A ‘flipper’ random I/O which randomly flips between HIGH and LOW approximately every 100ms. This is turned on and off by setting FE (flipper enable) to HIGH or LOW.
 
