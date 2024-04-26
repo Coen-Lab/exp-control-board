@@ -49,6 +49,7 @@ Four self-tapping screws can be inserted into the four corners of the case in th
 
 ### Power in
 ![Power in](Images/image2.png "Power input")
+
 The board comes with a switchmode 24V, 220W power supply. You should sum up all the current ratings of the various attached devices (including Peltier cooler) and make sure they do not exceed 220W.
 
 Once in the correct position, the insulation on the power connector should be cut off and the ends stripped to 5mm. Slightly twist the copper to make sure no strands splay off, then insert BLACK into ⏚ and RED into +24.
