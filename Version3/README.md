@@ -2,7 +2,8 @@
 <p align="center">
 <img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/5419c5a1-e87f-4c7d-b258-bab9e3ddde43">
 </p>
-**ABOVE**: Verion 3 board CAD file (left) with both top and bottom of enclosure (centre) or just the bottom of the enclosure (right)
+
+_Above_: Verion 3 board CAD file (left) with both top and bottom of enclosure (centre) or just the bottom of the enclosure (right)
 
 Thanks for purchasing (or considering) the ECB Version 3! This guide should act as a basic how-to to get started. If you have any questions/issues please post them on this github so that the entire community can benefit from the answers.
 
