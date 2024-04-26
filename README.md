@@ -19,7 +19,7 @@ For useage instructions, please see:
 
 [Version 3 documentation](Version3/Docs/INSTRUCTIONS.md)
 
-To purchase pre-assembled units, please contact [Max Hunter](https://maxhunter.me/). All details are open source, and details are provided to print your own PCBs: there is a folder of Gerbers and pick 'n place files for each version. However, please be aware that stock levels may necessitate equivalent-part subsitutions, so if you caren't familiar with ordering your own PCBs (e.g. you have no idea what Gerbers and pick 'n place files are), them we _strongly_ recommend you order pre-assembled units from contact [Max](https://maxhunter.me/). Max may also be able to make minor design changes (for a design fee) if there are particular elements you would like added or removed.
+To purchase pre-assembled units, please contact [Max Hunter](https://maxhunter.me/). All details are open source, and details are provided to print your own PCBs: there is a folder of Gerbers and pick 'n place files for each version. However, please be aware that stock levels may necessitate equivalent-part subsitutions, so if you caren't familiar with ordering your own PCBs (e.g. you have no idea what Gerbers and pick 'n place files are), them we _strongly_ recommend you order pre-assembled units. Max may also be able to make minor design changes (for a design fee) if there are particular elements you would like added or removed.
 
 &nbsp;
 &nbsp;
