@@ -15,15 +15,12 @@ If you have any further questions or have any problems, please leave an issue on
 
 
 ## General notes
-
-This board was designed by [Max Hunter](https://maxhunter.me/), to the specifications of Philip Coen. It  is designed both with features that are universally applicable to experimental rigs, as well as some features which may not (but may) be useful outside the Coen Lab. In particular, the entire board costs less than the commercial equivalent of some single features (e.g. constant current delivery, or a thresholded, adjustable photodiode circuit).
-
-If purchased directly from Max, you will receive:
+If purchased directly from Max, you have received:
 
 - 24V, 220W power supply
 - Photodiode (2-pin)
 - Temperature sensor (3-pin)
-- ECB Version 2 with the following features
+- ECB Version 3 with the following features
     - Temperature-controlled PID Peltier cooler output with overheat protection
     - Two fixed 12V, 3A power rails for auxiliary devices, with switchable on/off outputs
     - Four variable 3-24V, 3A power rails for auxiliary devices, with switchable on/off outputs
@@ -42,33 +39,21 @@ Please take the following precautions when handling the board.
 
 ## Installation/operation instructions
 
-
 ### General notes on screw terminals
-
 All the external connections to the board are made using screw terminals. These accept a wide variety of wire sizes. You should strip 5mm off the wire, then unscrew the terminal until the jaws fully open, insert the wire, and hand-tighten. The screw should clamp down on the conductor (not the insulation) and no conductor should be visible out the end of the connector.
 
 For low-power devices with small cable sizes it is acceptable to insert several wires into a single terminal, as long as they are all sufficiently stripped so that they are making good contact with the terminal.
 
-
 ### Case
-
 Four self-tapping screws can be inserted into the four corners of the case in the pre-drilled holes to mount onto any suitable surface. The board can be installed in any orientation but preferably should be kept away from direct sunlight and heat sources.
 
-
 ### Power in
-
-
 ![Power in](Images/image2.png "Power input")
-
-
 The board comes with a switchmode 24V, 220W power supply. You should sum up all the current ratings of the various attached devices (including Peltier cooler) and make sure they do not exceed 220W.
 
 Once in the correct position, the insulation on the power connector should be cut off and the ends stripped to 5mm. Slightly twist the copper to make sure no strands splay off, then insert BLACK into ⏚ and RED into +24.
 
-
 ### Power out
-
-
 ![Power outputs](Images/image3.png "Power outputs")
 
 
