@@ -21,7 +21,7 @@ If purchased directly from Max, the Version 3 board includes:
 
 For useage instructions, please see:
 
-[Version 3 documentation](Version3/Docs/INSTRUCTIONS.md)
+[Version 3 documentation](Version3/README.md)
 
 To purchase pre-assembled units, including photodiode etc. mentioned above, for ~£450 (at time of writing), please contact [Max Hunter](https://maxhunter.me/). 
 
