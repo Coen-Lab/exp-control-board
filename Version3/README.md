@@ -33,7 +33,7 @@ Please take the following precautions when handling the board.
 
 * **At no point should you “hot-plug” / screw or unscrew anything into the board when it is powered on. The rapid transients caused by the making/breaking of contacts when screwing a cable in can damage the board as well as any attached components.**
 * Do not overload or short-circuit any of the power rails.
-* Please pay attention to the total maximum current rating of 220W, which is possible to exceed if fully loading all voltage rails.
+* Please pay attention to the total maximum power rating of 220W, which is possible to exceed if fully loading all voltage rails.
 * When handling or touching any components on the board, you should ground yourself with an ESD bracelet (£4 on Amazon) or by touching any grounded surface to dissipate electrostatic charge. Humans can accumulate several thousand volts of static charge which will dissipate through the board: several of the components on the board are very sensitive to ESD. When screwing in any of the terminals, take the same precaution, or use an insulated screwdriver so your skin does not make contact with the screw of the terminal.
 
 
@@ -48,14 +48,14 @@ For low-power devices with small cable sizes it is acceptable to insert several 
 Four self-tapping screws can be inserted into the four corners of the enclosure in the pre-drilled holes to mount onto any suitable surface. The board can be installed in any orientation but preferably should be kept away from direct sunlight and heat sources.
 
 ### Power in
-<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/06d300f3-d032-4f42-b7f4-f1ebe7eefe98" width="125">
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/754df814-0189-49e6-b7cf-4ebc8cc8a042" width="125">
 
-The board comes with a switchmode 24V, 220W power supply. You should sum up all the current ratings of the various attached devices (including Peltier cooler) and make sure they do not exceed 220W.
+The board comes with a switchmode 24V, 220W power supply. You should sum up all the power ratings of the various attached devices (including Peltier cooler) and make sure they do not exceed 220W.
 
 Once in the correct position, the insulation on the power connector should be cut off and the ends stripped to 5mm. Slightly twist the copper to make sure no strands splay off, then insert BLACK into ⏚ and RED into +24.
 
 ### Power out
-<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/40da4de8-6fea-4f82-8e1f-0a02edd50f2b" width="350">
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/76101b6d-8c16-4158-ac4e-fff806b042ce" width="350">
 
 
 There are 6 power rails for auxiliary devices on this board. All of them share the same 3A current rating.
@@ -78,7 +78,7 @@ All rails have a GATE input. Leaving this pin disconnected, or connecting this t
 
 
 ### Peltier
-<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/a8e7ccee-287e-424c-8595-0d6bce31e986" width="300">
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/da5a2273-f0da-4ed0-905c-721f43a05e96" width="300">
 
 This board is tested and designed to work with the following 24V, 60W Peltier cooling module: [https://uk.rs-online.com/web/p/heat-pumps/7777079](https://uk.rs-online.com/web/p/heat-pumps/7777079). Other modules may work, as long as they are 24V and do not exceed 8A.
 
@@ -94,7 +94,7 @@ The code for the Peltier follows a PID loop with a frequency of approximately 80
 
 
 ### Photodiode
-<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/688959b8-2b57-47c5-b22b-936db12ee4ae" width="230">
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/0a3135ac-3784-4cec-a9fd-138e77ab3c7c" width="230">
 
 This is a completely separate module from the rest of the board, designed as an adjustable photodiode trigger at a user-settable light threshold - originally designed to be placed next to a square on a screen to synchronise it with experimental data. This turns a variable light level into a digital 5V TTL logic output. There is a Schmitt trigger to remove hysteresis. The included photodiode (optional) should be plugged with the RED wire into S- and the BLUE wire into S+. The photodiode should be placed in the desired position and the potentiometer adjusted for the desired sensitivity.
 
@@ -102,7 +102,7 @@ The output between OUT and ⏚ is the 5V TTL out. The output between RAW and ⏚
 
 
 ### Valve drivers
-<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/c6c77693-3ab8-4e8e-a79d-e095cd8bb59f" width="400">
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/f4cc2f16-8561-4ef2-bc53-6ffa288ca3c4" width="400">
 
 These are 2 completely independent valve drivers. They take 5V TTL logic in (between IN and ⏚) and connect to a valve. The specs are fixed and as follows:
 
@@ -114,10 +114,7 @@ When the logic level input goes above approximately 2.2V (maximum 5.5V) the outp
 
 
 ### Constant current drivers
-<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/281da088-6c27-47c8-a693-78a7be87bf6c" width="250">\
-
-<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/0f82e5b9-156d-478a-8c6a-37283b8ba00e" width="250">
-
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/d13b52c2-2ccb-462f-b155-7e94b04c4fab" width="250">\
 There are 3 constant-current drivers on this board. They are adjustable in 3 fixed steps: 333mA, 667mA, 1000mA, by adding or removing jumpers on the board as shown.
 
 They can also be controlled with the CTL pin for the relevant output as follows:
