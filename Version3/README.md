@@ -102,7 +102,7 @@ The output between OUT and ⏚ is the 5V TTL out. The output between RAW and ⏚
 
 
 ### Valve drivers
-<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/f4cc2f16-8561-4ef2-bc53-6ffa288ca3c4" width="400">
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/f4cc2f16-8561-4ef2-bc53-6ffa288ca3c4" width="350">
 
 These are 2 completely independent valve drivers. They take 5V TTL logic in (between IN and ⏚) and connect to a valve. The specs are fixed and as follows:
 
@@ -115,6 +115,8 @@ When the logic level input goes above approximately 2.2V (maximum 5.5V) the outp
 
 ### Constant current drivers
 <img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/d13b52c2-2ccb-462f-b155-7e94b04c4fab" width="250">\
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/393f6d54-8b79-47f6-8a11-446cd84edb46" width="250">\
+
 There are 3 constant-current drivers on this board. They are adjustable in 3 fixed steps: 333mA, 667mA, 1000mA, by adding or removing jumpers on the board as shown.
 
 They can also be controlled with the CTL pin for the relevant output as follows:
@@ -128,8 +130,7 @@ This can be used either as analogue control from 0-2.5V, or as a digital on/off 
 There is an internal pull-up resistor, so leaving this pin floating is the same as pulling it up to +5V (ie "on").
 
 ### Arduino I/O
-
-<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/fe5c1d7e-f226-4f1e-b79e-6fa29bc6ded4" width="400">\
+<img src="https://github.com/Coen-Lab/exp-control-board/assets/1191043/2549847e-2a8d-4b6f-bd57-68527554c53b" width="500">\
 
 
 This is a breakout board for the included Arduino Nano v3. 
